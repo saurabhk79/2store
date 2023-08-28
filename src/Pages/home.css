@@ -1,0 +1,27 @@
+.wrapper {
+  max-width: 1080px;
+  margin: 32px auto;
+}
+
+.hero {
+  height: 70vh;
+  padding: 32px;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  background-image: url("2store-hero.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.features {
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

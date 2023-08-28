@@ -1,0 +1,14 @@
+.nav-wrap {
+  max-width: 1080px;
+  margin: auto;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-wrap a {
+  margin: 0 8px;
+  font-weight: 600;
+}

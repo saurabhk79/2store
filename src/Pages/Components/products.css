@@ -1,0 +1,26 @@
+.filters {
+  border: 1px solid #5dda3e;
+  padding: 8px 16px;
+  /* color: #5dda3e; */
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.filters.filled {
+  color: white;
+  background-color: #5dda3e;
+}
+
+.filter-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  transition: all 0.3s ease-in-out;
+  height: 350px;
+}
+.card:hover {
+  transform: scale(1.1);
+}
